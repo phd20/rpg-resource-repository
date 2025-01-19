@@ -26,6 +26,7 @@ export default defineConfig({
 					label: 'Magic Items',
 					autogenerate: { directory: 'magic-items' },
 				},
+				{ slug: 'maps/overview' },
 				{
 					label: 'Random Tables',
 					autogenerate: { directory: 'random-tables' },
