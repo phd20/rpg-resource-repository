@@ -1,10 +1,6 @@
 ---
 title: Tireless Weapon
 description: A magic item
-sidebar:
-    badge:
-        text: Updated
-        variant: success
 ---
 
 # Tireless Weapon

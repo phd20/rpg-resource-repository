@@ -1,10 +1,6 @@
 ---
 title: Evocative Geography Names
 description: Generate evocative names for geography in your setting.
-sidebar:
-    badge:
-        text: New
-        variant: tip
 ---
 
 Roll for geography and flavor to inspire evocative names.

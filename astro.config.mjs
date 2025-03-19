@@ -10,6 +10,7 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/phd20/rpg-resource-repository',
 				patreon: 'https://www.patreon.com/phd20',
+				discourse: 'https://forum.phd20.com'
 			},
 			sidebar: [
 				{ slug: 'reference/overview' },
