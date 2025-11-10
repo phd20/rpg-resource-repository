@@ -7,6 +7,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'RPG Resource Repository',
+			components: {
+				PageTitle: './src/components/PageTitle.astro',
+			},
 			social: {
 				github: 'https://github.com/phd20/rpg-resource-repository',
 				patreon: 'https://www.patreon.com/phd20',

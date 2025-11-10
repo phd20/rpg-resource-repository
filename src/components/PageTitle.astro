@@ -1,0 +1,29 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/PageTitle.astro';
+import CopyMarkdownButton from './CopyMarkdownButton.astro';
+import { getEntry } from 'astro:content';
+
+// Get the current URL path and convert to entry slug
+const pathname = Astro.url.pathname;
+const slug = pathname.replace(/^\//, '').replace(/\/$/, '');
+
+// Get the entry from the docs collection
+let filepath = null;
+try {
+  const entry = await getEntry('docs', slug);
+  if (entry) {
+    filepath = entry.id;
+  }
+} catch (error) {
+  // Silently handle pages that aren't in the docs collection
+}
+---
+
+<div
+  class="page-title-wrapper"
+  style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;"
+>
+  <Default {...Astro.props}><slot /></Default>
+  {filepath && <CopyMarkdownButton filepath={filepath} />}
+</div>

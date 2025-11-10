@@ -1,0 +1,122 @@
+---
+interface Props {
+  filepath: string;
+}
+
+const { filepath } = Astro.props;
+const rawUrl = `https://raw.githubusercontent.com/phd20/rpg-resource-repository/refs/heads/main/src/content/docs/${filepath}.md`;
+---
+
+<button class="copy-markdown-btn" data-markdown-url={rawUrl} type="button">
+  <svg
+    class="icon"
+    width="16"
+    height="16"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+  >
+    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+  </svg>
+  <span class="btn-text">Copy Markdown</span>
+</button>
+
+<style>
+  .copy-markdown-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .copy-markdown-btn:hover {
+    background-color: #2563eb;
+  }
+
+  .copy-markdown-btn:active {
+    transform: scale(0.98);
+  }
+
+  .copy-markdown-btn.copied {
+    background-color: #10b981;
+  }
+
+  .copy-markdown-btn.loading {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+
+  .icon {
+    flex-shrink: 0;
+  }
+</style>
+
+<script>
+  function initCopyButtons() {
+    const buttons = document.querySelectorAll('.copy-markdown-btn');
+
+    buttons.forEach((button) => {
+      if (!(button instanceof HTMLButtonElement)) return;
+
+      button.addEventListener('click', async () => {
+        const markdownUrl = button.dataset.markdownUrl;
+        if (!markdownUrl) return;
+
+        const textSpan = button.querySelector('.btn-text');
+        if (!textSpan) return;
+
+        const originalText = textSpan.textContent;
+
+        try {
+          button.classList.add('loading');
+          button.disabled = true;
+          textSpan.textContent = 'Loading...';
+
+          const response = await fetch(markdownUrl);
+
+          if (!response.ok) {
+            throw new Error('Failed to fetch markdown');
+          }
+
+          const markdown = await response.text();
+          await navigator.clipboard.writeText(markdown);
+
+          button.classList.remove('loading');
+          button.classList.add('copied');
+          textSpan.textContent = 'Copied!';
+
+          setTimeout(() => {
+            button.classList.remove('copied');
+            button.disabled = false;
+            textSpan.textContent = originalText;
+          }, 2000);
+        } catch (error) {
+          console.error('Error copying markdown:', error);
+
+          button.classList.remove('loading');
+          textSpan.textContent = 'Failed';
+
+          alert('Failed to copy markdown. Please try again.');
+
+          setTimeout(() => {
+            button.disabled = false;
+            textSpan.textContent = originalText;
+          }, 2000);
+        }
+      });
+    });
+  }
+
+  initCopyButtons();
+  document.addEventListener('astro:page-load', initCopyButtons);
+</script>
