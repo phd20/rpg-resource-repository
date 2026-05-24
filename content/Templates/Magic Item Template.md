@@ -8,7 +8,7 @@ tags:
 
 ## Description
 
-*Physical appearance — what it looks like, feels like, how it's carried.*
+*Physical appearance—what it looks like, feels like, how it's carried.*
 
 ## Properties
 
@@ -27,6 +27,6 @@ Property Name. Effect.
 
 *Who made it, where it's been, what it's done.*
 
-> [!secret]- GM Only — Secrets & Complications
+> [!secret]- GM Only—Secrets & Complications
 >
 > *What's hidden about this item and what consequences it carries.*

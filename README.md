@@ -1,53 +1,76 @@
 # RPG Resource Repository
 
-![RPG Resource Repository](preview.png)
+![RPG Resource Repository](content/preview.png)
 
-A public, version-controlled library of GM content for tabletop RPGs — organized as **backend artifacts** (sources of truth) and **runtime documents** (what you run at the table). Browse it on GitHub or download it as an Obsidian vault.
+The RPG Resource Repository is a public, version-controlled library of GM content for tabletop RPGs. It's free forever, under Creative Commons. Stop by for inspiration, take artifacts for your games, or download the whole thing as an Obsidian vault.
 
-You are free to use and adapt this repository and the files within. Please include the following attribution:
+## Support
 
-> This work incorporates material from the [RPG Resource Repository](https://github.com/phd20/rpg-resource-repository) by Kirk Wiebe of [PhD20.com](https://phd20.com/), provided under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+Everything here was unlocked from [the Architect's Vault](https://members.phd20.com/)—the Patreon companion where new content starts. Support on Patreon to get everything sooner, plus exclusives that never leave the Vault.
 
-For more, see [[LICENSE]].
+## Creative Commons
 
----
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Feel free to use this content in any way allowed by the license, provided that you include the following attribution statement in your work:
 
-## How It Works
+> This work incorporates material from the RPG Resource Repository by Kirk Wiebe of [PhD20.com](https://phd20.com/), provided under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-Everything here is **free forever** thanks to the support of my wonderful patrons. Over on Patreon, new resources drop regularly. After a few months, some of those resources make their way here for everyone.
+## Human Made Resources
 
-> **[Support on Patreon](https://patreon.com/phd20)** to get more artifacts, more quickly.
+All game material in the RPG Resource Repository is **100% human-made**. Generative AI is **not** used during any part of the creative process to create this material.
 
----
+## Community
 
-## Start Here: A Full Adventure
-
-**[The Dark Contracts](Adventures/The%20Dark%20Contracts.md)** — A weird, deadly one-shot for Shadowdark RPG characters of levels 1–2. Arthurian legend meets dungeon crawl: Merlin's brain is in a jar, Excalibur is broken, and Arthur dealt with dark powers.
+Join a [community](https://forum.phd20.com/) to discuss the repository or any aspect of tabletop roleplaying games.
 
 ---
 
-## Browse by Category
+## Getting Started
 
-### Backend — Sources of Truth
+Much of the organizing approach taken by the RPG Resource Repository was inspired by [this blog post](https://elmc.at/fullstack-refereeing/) about "fullstack refereeing." 
 
-| Category | Template | Worked Example |
-|----------|----------|----------------|
-| NPCs | [NPC Template](Templates/NPC%20Template.md) | [Dredmor](NPCs/Dredmor.md) · [M the Wizard](NPCs/M%20the%20Wizard.md) · [Imp](NPCs/Imp.md) |
-| Sites | [Site Template](Templates/Site%20Template.md) | [Dredmor Ruins](Locations/Dredmor%20Ruins.md) |
-| Settlements | [Settlement Template](Templates/Settlement%20Template.md) | — |
-| Organizations | [Organization Template](Templates/Organization%20Template.md) | — |
-| Magic Items | [Magic Item Template](Templates/Magic%20Item%20Template.md) | [Once Upon a Time](Items/Once%20Upon%20a%20Time.md) · [Malice](Items/Malice.md) · [Torment](Items/Torment.md) · [Tireless Weapon](Items/Tireless%20Weapon.md) |
-| Items | [Item Template](Templates/Item%20Template.md) | [Drafter's Tools](Items/Drafter's%20Tools.md) |
-| Tables | [Table (d6)](Templates/Table%20(d6).md) · [more sizes](Templates/) | [Dark Contracts Tables](Tables/Dark%20Contracts%20Tables.md) · [Books](Tables/Books.md) · [Trinkets](Tables/Trinkets.md) · [more](Tables/) |
+World artifacts are organized into:
 
-### Runtime — What You Run at the Table
+- Items
+- Locations
+- NPCs
+- Organizations
+- Tables
 
-| Category | Template | Worked Example |
-|----------|----------|----------------|
-| Adventures | [Adventure Template](Templates/Adventure%20Template.md) | [The Dark Contracts](Adventures/The%20Dark%20Contracts.md) |
-| Encounters | [Encounter Template](Templates/Encounter%20Template.md) | — |
+These notes contain the "what is true" and "how truth changes" about each topic. They are kept atomic—not linking to or depending on any other notes. As written, these types of notes are rarely "ready to run." That's where our "runtime" artifacts come in:
+
+- Adventures
+- Encounters
+
+These notes are created and organized in a way to make them easy to run as actual games. They take advantage of Obsidian features and specific styling approaches to help the game master use them at the table. 
+### How to Use the RPG Resource Repository
+
+#### Discover and Share Notes
+
+The website generates unique URLs for each note. Like a magic item or NPC? Share the link!
+
+#### Steal Notes
+
+Find a location or encounter for your next session? Copy it to your own notes! The raw Markdown can be found in the [Github repository](https://github.com/phd20/rpg-resource-repository).
+
+#### Download the Entire Vault
+
+The entirety of the content is structured into an Obsidian vault (using wikilinks, callouts, snippets, etc). Download the whole thing as a `.zip` file at the [Github repository](https://github.com/phd20/rpg-resource-repository). Open the `/content` directory as a vault and you're all set.
+
 
 ---
+
+## Design Philosophy
+
+See **[PRINCIPLES.md](PRINCIPLES.md)** and [phd20.com](https://phd20.com) for more on my approach to designing and running TTRPGs.
+
+---
+## Properties Guide
+
+```yaml
+type: site   # or "settlement" or "item" or "magic-item" or "table" or "npc" or "organization" or "encounter" or "adventure" etc.
+system: shadowdark   # or "5e" or "neutral" etc.
+tags: dungeon   # additional descriptors for search
+```
 
 ## Style Guide
 
@@ -66,9 +89,9 @@ Carries: +1 longsword, chainmail, winged helm (+1 AC)
 
 **GM-only content collapses.**
 
-> [!secret]- GM Only — What Happened
+> [!secret]- GM Only—What Happened
 >
-> The king signed three dark contracts to seal Dredmor — his mortal enemy.
+> The king signed three dark contracts to seal Dredmor—his mortal enemy.
 >
 > - **Of Spell.** He sacrificed his mage to be imprisoned for eternity.
 > - **Of Steel.** He sacrificed the blade that granted him power.
@@ -76,13 +99,13 @@ Carries: +1 longsword, chainmail, winged helm (+1 AC)
 >
 > In the end, he sacrificed himself.
 
-**Runtime documents use formatting as permission levels.**
+**Adventures and Encounters use formatting as permission levels.**
 
-- **Bold** — freely visible, demands attention
-- Bullets — discoverable, what the world responds to
-- `[!secret]` — hidden, GM-only truth
+- **Bold**—freely visible, demands attention
+- Bullets—discoverable, what the world responds to
+- `[!secret]`—hidden, GM-only truth or tips
 
-**[Mermaid diagrams](https://mermaid.js.org/intro/) power visualizations.**
+**[Mermaid diagrams](https://mermaid.js.org/intro/) power visualizations where necessary.**
 
 ```mermaid
 flowchart TD
@@ -95,29 +118,13 @@ flowchart TD
 
 ---
 
-## Design Philosophy
-
-The framework behind every piece of content lives in **[PRINCIPLES.md](PRINCIPLES.md)**. The applied version: every principle has a concrete example.
-
-The core model: **Backend** (what is true) → **Runtime** (what you run live). Backend artifacts are standalone sources of truth — an NPC, a location, an item — that can slot into any campaign. Runtime documents orchestrate them at the table.
-
----
-
-## How to Use This Repo
-
-**Browse.** Read files directly on GitHub. Share links to specific NPCs or locations. Every backend artifact is self-contained and useful on its own.
-
-**Download.** Clone or ZIP and open as an [Obsidian](https://obsidian.md) vault or port the Markdown to your preferred editor.
-
----
-
 ## About PhD20
 
-**PhD20** helps Game Masters run games they're genuinely excited about. I write about worldbuilding, campaign organization, and the tools that support both. I believe that great games come from [GM inspiration connected to meaningful player choice](https://phd20.com/blog/atomic-game-mastery/), not a story written in advance.
+**PhD20** provides tools, resources, and ideas for running better games. I write about worldbuilding, campaign organization, and the tools that support both. I believe that great games come from [GM inspiration connected to meaningful player choice](https://phd20.com/blog/atomic-game-mastery/), not a story written in advance.
 
 ### About the Author
 
-👋 I'm Kirk. I've been running D&D since 2010. In 2011, D&D's Chris Perkins selected my dungeon as a finalist in his "Acererak's Apprentice" design contest — which pulled me into the early online D&D community. I went on to run a YouTube channel for five years, back when TTRPG YouTube was a small handful of creators, before Matt Colville and the rise of modern "DungeonTube." These days I write instead, and I'm especially interested in where our hobby meets technology: the tools that help us build and organize worlds, and a healthy skepticism toward the ones that don't.
+👋 I'm Kirk. I've been running D&D since 2010. In 2011, D&D's Chris Perkins selected my dungeon as a finalist in his "Acererak's Apprentice" design contest—which pulled me into the early online D&D community. I went on to run a YouTube channel for five years, back when TTRPG YouTube was a small handful of creators, before Matt Colville and the rise of modern "DungeonTube." These days I write instead, and I'm especially interested in where our hobby meets technology: the tools that help us build and organize worlds, and a healthy skepticism toward the ones that don't.
 
 [phd20.com](https://phd20.com) · [Patreon](https://patreon.com/phd20)
 

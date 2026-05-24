@@ -1,11 +1,12 @@
 ---
 type: table
+system: shadowdark
 tags:
   - dark-contracts
   - shadowdark
 ---
 
-## Table 1 — Rumors & Legends (d6)
+## Table 1—Rumors & Legends (d6)
 
 > *Seed one or more of these with players before the session begins.*
 
@@ -20,7 +21,7 @@ tags:
 
 ---
 
-## Table 2 — Random Encounters (d6)
+## Table 2—Random Encounters (d6)
 
 > *Roll every two rounds. Results are hostile unless noted.*
 
@@ -35,7 +36,7 @@ tags:
 
 ---
 
-## Table 3 — Chaos (d8)
+## Table 3—Chaos (d8)
 
 > *If play slows or needs disruption, roll for chaos.*
 

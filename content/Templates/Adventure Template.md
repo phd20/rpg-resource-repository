@@ -4,33 +4,45 @@ system:
 tags:
 ---
 
-> *The adventure premise in one sentence.*
+> *The adventure premise in 1-3 sentences.*
 
-## Before Running
+## Introduction
 
-- Read: [[key backend files]]
-- Seed: [[hooks or rumors]] before session
-- [ ] Starting state to initialize
+This is an X adventure for Y level characters in Z system. Any other information that would let a game master decide whether or not they want to read further into this adventure.
 
-> [!secret]- GM Only — The Truth
+## Prep
+
+### Background
+
+Important information to help set the stage for the current situation.
+
+### Goals
+
+What the player characters want.
+
+### Obstacles
+
+What stands in the player characters' way.
+
+### Seeds
+
+Information to seed with the player characters, like rumors & legends.
+
+> [!secret]- GM Only—The Truth
 >
 > *What the GM needs to know before play begins. Read this before the session, not at the table.*
 
-## Procedures
+## Play
 
-*Active rules running during play — encounter clocks, turn structure, pacing triggers, chaos rules.*
+*This section is meant to be used **in play**. The goal is to eliminate or limit the need to reference anything else when running the game. Everything the GM needs should be here with well-structured links to optional or extra information.*
 
-## The Adventure
+### Procedures & Tracking
 
-*Structure varies by adventure type: dungeon crawl, linear scenes, sandbox.*
+*Active rules running during play—encounter clocks, turn structure, pacing triggers, chaos rules, date and time, etc.*
 
-*Permissions through formatting: **bold** for freely visible, bullets for discoverable, `[!secret]` for hidden.*
+### The Adventure
 
-## State
+*This is the beating heart of the GM's tools. Structure varies by adventure type but the bulk of the "adventure" should live here.*
 
-- [ ] 
-- [ ] 
+*Permissions through formatting: **bold** for freely visible, bullets for discoverable, `[!secret]-` for hidden.*
 
-## GM Toolkit
-
-*Quick-reference stats and adventure-specific tables. Tables with broad utility belong in standalone Table artifacts.*

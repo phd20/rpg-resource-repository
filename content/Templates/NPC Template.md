@@ -4,7 +4,7 @@ system:
 tags:
 ---
 
-> *One sentence that makes this NPC immediately legible — who they are and what they want.*
+> *One sentence that makes this NPC memorable.*
 
 ## Appearance
 
@@ -12,37 +12,31 @@ tags:
 
 ## Personality
 
-*Genuine traits, speech patterns, mannerisms. Not interaction scripts or trigger conditions.*
+*Noticeable traits, speech patterns, mannerisms, behaviors, etc
 
 ## Alignment
 
-*Value, plus one line on what it looks like in practice.*
+*Their alignment and how it manifests.
 
 ## Goals
 
-*What they're actively pursuing — concrete, not vague.*
+*What they want and why.*
 
 ## Background
 
-*Origin, history, occupation, where they fit in the world. Connections described in plain text — no links.*
+*Origin, history, occupation, where they fit in the world.*
 
 ## Useful Knowledge
 
-*Flat list of what they know. No tiers, no gating.*
+*What do they know that makes them interesting?*
 
 - 
 - 
 
-> [!secret]- GM Only — Secrets
+> [!secret]- GM Only—Secrets
 >
-> *Pure hidden truth the GM needs. Not framed as "what the party might discover."*
+> *Every good NPC has a secret. Whether or not its revealed, it should contribute to their character.*
 
 ## Stat Block
 
-```
-NAME                                                       LV #
-AC ##  HP ##  ATK # weapon +# (#d#)  MV near
-S +#  D +#  C +#  I +#  W +#  Ch +#  AL #
-
-Special ability. Description.
-```
+*Use the stat block templates, if needed.*

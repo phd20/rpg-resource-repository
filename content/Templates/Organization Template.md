@@ -4,24 +4,24 @@ system:
 tags:
 ---
 
-> *One sentence: what this organization is and what makes it interesting.*
+> *Tagline about this organization.*
 
 ## Overview
 
-*Type, public purpose, reach — what they present to the world.*
+*Type, public purpose, reach—what they present to the world.*
 
 ## Goals
 
-*What they're actually pursuing — may differ from public purpose.*
+*What they're actually pursuing—may differ from public purpose.*
 
 ## Methods & Resources
 
-*How they operate, what they're willing to do, what they have.*
+*How they operate and what resources they have access to.*
 
 ## Structure
 
-*Leadership, membership, hierarchy. Descriptive only — no links.*
+*Leadership, membership, hierarchy.*
 
-> [!secret]- GM Only — Hidden Agenda & Secrets
+> [!secret]- GM Only—Hidden Agenda & Secrets
 >
 > *The version of this organization the party may never fully discover.*

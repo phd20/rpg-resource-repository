@@ -8,12 +8,7 @@ tags:
 
 ## Overview
 
-| | |
-|---|---|
-| **Familiar** | What grounds this place in recognizable reality |
-| **Fantastic** | What makes it strange or memorable |
-| **Function** | Why this place exists in the world |
-| **Situation** | What's happening here right now |
+*Describe the site. What is its function? How is it familiar? What's the fantastic element?*
 
 ## History
 
@@ -21,11 +16,11 @@ tags:
 
 ## Conditions
 
-*Quick-reference rules for running the space — darkness, door state, encounter frequency, pursuit behavior.*
+*Quick-reference rules for running the space—darkness, door state, encounter frequency, inhabitant disposition, etc.*
 
-## Arriving
+## Atmosphere
 
-*The sensory first impression. One visual, one sound or smell. Written to be read or paraphrased aloud.*
+*What is the energy of the site? What are the sights, smells, and sounds? What stands out to someone first approaching this place? What story does the architecture or nature tell?*
 
 ## Key Areas
 
@@ -37,7 +32,7 @@ tags:
 
 *Description and what's mechanically present.*
 
-> [!secret]- GM Only — Secrets & Change
+> [!secret]- GM Only—Secrets & Change
 >
 > *Hidden truth the GM needs.*
 >

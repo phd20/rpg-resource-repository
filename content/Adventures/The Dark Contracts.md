@@ -9,11 +9,30 @@ tags:
 
 > *Merlin's brain is in a jar. Excalibur is broken. Arthur dealt with dark powers.*
 
-## Before Running
+## Introduction
 
-- Read: [[Dredmor]], [[M the Wizard]], [[Imp]], [[Dredmor Ruins]], [[Once Upon a Time]]
-- Seed: [[Dark Contracts Tables#Table 1—Rumors & Legends (d6)|roll or choose rumors]] to plant with players before session
+*[TODO: 1–2 sentences describing this as an X adventure for Y level characters, and what a GM needs to know to decide whether to run it.]*
+
+## Prep
+
+- Read: [[Dredmor]], [["M" the Wizard]], [[Imp]], [[Dredmor Ruins]], [[Once Upon a Time]]
 - [ ] Decide Dredmor's starting state (default: sealed—jar in Room 6 is intact)
+
+### Background
+
+*[TODO: Write background prose—the history of the king, the contracts, and Dredmor.]*
+
+### Goals
+
+*[TODO: Describe what the player characters want in this adventure.]*
+
+### Obstacles
+
+*[TODO: Describe what stands in the player characters' way.]*
+
+### Seeds
+
+**[[Dark Contracts Tables#Table 1—Rumors & Legends (d6)|Roll or choose rumors]] to plant with players before the session.**
 
 > [!secret]- GM Only—The Truth
 >
@@ -27,7 +46,11 @@ tags:
 >
 > M doesn't know it was sacrificed. Dredmor doesn't know the king sacrificed himself. The note in Room 11 is the king's last act. The dungeon is full of people who only know part of the story—the party may be the first to know all of it.
 
-## Procedures
+## Play
+
+*This section is meant to be used **in play**. The goal is to eliminate or limit the need to reference anything else when running the game. Everything the GM needs should be here with well-structured links to optional or extra information.*
+
+### Procedures & Tracking
 
 **Roll for [[Dark Contracts Tables#Table 2—Random Encounters (d6)|random encounters]] every two rounds.** If play stalls, [[Dark Contracts Tables#Table 3—Chaos (d8)|roll for chaos]].
 
@@ -36,31 +59,6 @@ Unless otherwise noted:
 - All areas are **dark**
 - Roll reaction for any monsters unless otherwise noted
 - Only demons, devils, and [[Dredmor]] will **pursue** the party if they retreat
-
-## The Adventure
-
-Refer to [[Dredmor Ruins]] for the full room-by-room key.
-
-**The footprints.** Tiny footprints in Room 1 lead toward Room 7. If the party follows them, they find the Imp. If they don't notice them until later, mention them again when the Imp appears. The thread should be there to pull.
-
-- **[[M the Wizard]]** is in Room 6—not hostile, INT +4, will share everything it knows. The one thing it doesn't know is why it's in the jar.
-- **[[Imp]]** is in Room 7 digging for the sword. Make a Reaction Roll at -2. It wants to deal.
-- **[[Once Upon a Time]]** pieces are in the rubble in Room 7. Reforging unlocks Room 4.
-- **[[Dredmor]]** starts sealed. Removing M's jar frees him. Chapel words (Room 9) toggle stone/free.
-
-> [!secret]- The Chapel as Chekhov's Gun
->
-> The words "Speak the Dark Contracts. Seal Your Doom." are visible when the party enters Room 9. The phrase "Of Spell, of Steel, of Sacrifice" is carved on artifacts throughout the dungeon—M's jar, the floor of Room 7, the altar in Room 8. By the time the party stands in the chapel with Dredmor free and closing in, they should already know what to say.
-
-> [!secret]- M as Information Source
->
-> M knows everything about the dungeon and the contracts. It will share—it's not hostile, and it has INT +4. The catch: it doesn't know it was sacrificed. If the party figures out the story and tells M, let that beat happen slowly. It's the most human moment in the dungeon.
-
-> [!secret]- The Note Landing
->
-> The note in Room 11—*"G—my love, I'm so sorry"*—is easy to gloss over. If the party doesn't engage with it, have M recognize the handwriting, or mention it again when the ghost appears in Room 4. The king sacrificed his love on a false altar and then sacrificed himself. The note is his last act. It should mean something.
-
-## State
 
 **[[Dredmor]]**
 - [ ] Freed—jar removed from Room 6
@@ -80,7 +78,7 @@ stateDiagram-v2
     Free --> [*] : defeated in combat
 ```
 
-**[[M the Wizard]]**
+**[["M" the Wizard]]**
 - [ ] Party took the jar (Dredmor freed)
 - [ ] Party told M what happened to it
 - [ ] Left behind
@@ -94,9 +92,32 @@ stateDiagram-v2
 - [ ] Found in Room 11
 - [ ] Party understood what it means
 
-## GM Toolkit
+### The Adventure
 
-### Monster Stats (Quick Reference)
+*Permissions through formatting: **bold** for freely visible, bullets for discoverable, `[!secret]-` for hidden.*
+
+Refer to [[Dredmor Ruins]] for the full room-by-room key.
+
+**The footprints.** Tiny footprints in Room 1 lead toward Room 7. If the party follows them, they find the Imp. If they don't notice them until later, mention them again when the Imp appears. The thread should be there to pull.
+
+- **[["M" the Wizard]]** is in Room 6—not hostile, INT +4, will share everything it knows. The one thing it doesn't know is why it's in the jar.
+- **[[Imp]]** is in Room 7 digging for the sword. Make a Reaction Roll at -2. It wants to deal.
+- **[[Once Upon a Time]]** pieces are in the rubble in Room 7. Reforging unlocks Room 4.
+- **[[Dredmor]]** starts sealed. Removing M's jar frees him. Chapel words (Room 9) toggle stone/free.
+
+> [!secret]- GM Only—The Chapel as Chekhov's Gun
+>
+> The words "Speak the Dark Contracts. Seal Your Doom." are visible when the party enters Room 9. The phrase "Of Spell, of Steel, of Sacrifice" is carved on artifacts throughout the dungeon—M's jar, the floor of Room 7, the altar in Room 8. By the time the party stands in the chapel with Dredmor free and closing in, they should already know what to say.
+
+> [!secret]- GM Only—M as Information Source
+>
+> M knows everything about the dungeon and the contracts. It will share—it's not hostile, and it has INT +4. The catch: it doesn't know it was sacrificed. If the party figures out the story and tells M, let that beat happen slowly. It's the most human moment in the dungeon.
+
+> [!secret]- GM Only—The Note Landing
+>
+> The note in Room 11—*"G—my love, I'm so sorry"*—is easy to gloss over. If the party doesn't engage with it, have M recognize the handwriting, or mention it again when the ghost appears in Room 4. The king sacrificed his love on a false altar and then sacrificed himself. The note is his last act. It should mean something.
+
+### Monster Stats
 
 #### Cultist
 ```
@@ -137,8 +158,6 @@ Undead: Immune to morale checks.
 ---
 
 *The Dark Contracts, © 2023 PhD20. Designed and written by Kirk Wiebe.*
-
-*Cover art: Sir Mordred by Henry Justice Ford. Cartography by Dyson Logos.*
 
 *"Death is welcome when it comes; but to yield—never!"—King Arthur and His Knights of the Round Table by Roger Lancelyn Green.*
 
