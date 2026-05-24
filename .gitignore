@@ -1,23 +1,12 @@
-# build output
-dist/
-# generated types
-.astro/
-
-# dependencies
-node_modules/
-
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-
-# environment variables
-.env
-.env.production
-
-# macOS-specific files
+# macOS
 .DS_Store
 
-.yarn/cache
+# Obsidian workspace (local state, not shared)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Quartz build output
+public/
+
+# Node
+node_modules/
