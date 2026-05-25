@@ -11,28 +11,15 @@ tags:
 
 ## Introduction
 
-*[TODO: 1–2 sentences describing this as an X adventure for Y level characters, and what a GM needs to know to decide whether to run it.]*
+Welcome to the weird and wild one-shot for Shadowdark RPG characters of levels 1-2. This adventure twists aspects of the Arthurian Legend into a deadly, fantasy dungeon crawl.
 
 ## Prep
 
-- Read: [[Dredmor]], [["M" the Wizard]], [[Imp]], [[Dredmor Ruins]], [[Once Upon a Time]]
-- [ ] Decide Dredmor's starting state (default: sealed—jar in Room 6 is intact)
-
 ### Background
 
-*[TODO: Write background prose—the history of the king, the contracts, and Dredmor.]*
+A king from a faraway land once came to [[Dredmor Ruins]] to deal with dark powers. It brought him great fortunes but ultimately doom. 
 
-### Goals
-
-*[TODO: Describe what the player characters want in this adventure.]*
-
-### Obstacles
-
-*[TODO: Describe what stands in the player characters' way.]*
-
-### Seeds
-
-**[[Dark Contracts Tables#Table 1—Rumors & Legends (d6)|Roll or choose rumors]] to plant with players before the session.**
+While his story is scattered, his artifacts remain. Rumors of great treasures and magic draw adventurers in. But dangers prove to be too much for most.
 
 > [!secret]- GM Only—The Truth
 >
@@ -44,15 +31,31 @@ tags:
 >
 > In the end, he sacrificed himself.
 >
-> M doesn't know it was sacrificed. Dredmor doesn't know the king sacrificed himself. The note in Room 11 is the king's last act. The dungeon is full of people who only know part of the story—the party may be the first to know all of it.
+
+### Goals
+
+The likely goal of most parties of adventurers is to obtain treasure.
+
+### Obstacles
+
+Dangerous monsters and the possible consequences of unfolding a dark mystery stand in their way.
+
+### Seeds
+
+> *Seed one or more of these with players before the session begins.*
+
+| d6 | Rumor | True? |
+|----|-------|-------|
+| 1 | The king guards his sword | False |
+| 2 | The king turned into a devil | False |
+| 3 | The mage betrayed the king | False |
+| 4 | The sword is broken | True |
+| 5 | The altar is cursed | True |
+| 6 | The mage is alive | True |
 
 ## Play
 
-*This section is meant to be used **in play**. The goal is to eliminate or limit the need to reference anything else when running the game. Everything the GM needs should be here with well-structured links to optional or extra information.*
-
 ### Procedures & Tracking
-
-**Roll for [[Dark Contracts Tables#Table 2—Random Encounters (d6)|random encounters]] every two rounds.** If play stalls, [[Dark Contracts Tables#Table 3—Chaos (d8)|roll for chaos]].
 
 Unless otherwise noted:
 - All doors are **locked**
@@ -60,10 +63,35 @@ Unless otherwise noted:
 - Roll reaction for any monsters unless otherwise noted
 - Only demons, devils, and [[Dredmor]] will **pursue** the party if they retreat
 
-**[[Dredmor]]**
-- [ ] Freed—jar removed from Room 6
-- [ ] Turned to stone—chapel words spoken while free
-- [ ] Defeated in combat
+**Roll for [[#Random Encounters]] every two rounds.** If play stalls, roll for [[#Chaos]].
+
+#### Random Encounters
+
+| d6 | Encounter |
+|----|-----------|
+| 1 | A random NPC wanders in |
+| 2 | 1d4 [[The Dark Contracts#Skeleton\|skeletons]] ramble in |
+| 3 | An [[Imp]] appears in smoke |
+| 4 | A [[The Dark Contracts#Giant Bat\|giant bat]] emerges |
+| 5 | A mad [[The Dark Contracts#Cultist\|cultist]] stalks the party |
+| 6 | A [[The Dark Contracts#Dretch\|dretch]] (demon) is summoned nearby |
+#### Chaos
+
+| d8 | Chaos Event |
+|----|-------------|
+| 1 | A priest appears and then dies |
+| 2 | Voices whisper about a grail |
+| 3 | See a vision of a lady in a lake |
+| 4 | Silver pieces become white hot |
+| 5 | A minor earthquake shakes you |
+| 6 | Violent laughter echoes nearby |
+| 7 | A swarm of bats overcomes you |
+| 8 | Your rations smell of brimstone |
+#### Tracking
+
+**Dredmor's Current State**
+
+- [x] Sealed
 
 ```mermaid
 stateDiagram-v2
@@ -78,44 +106,312 @@ stateDiagram-v2
     Free --> [*] : defeated in combat
 ```
 
-**[["M" the Wizard]]**
-- [ ] Party took the jar (Dredmor freed)
-- [ ] Party told M what happened to it
-- [ ] Left behind
-
-**[[Once Upon a Time]]**
-- [ ] Pieces recovered from Room 7
-- [ ] Reforged
-- [ ] Inserted in Room 4 stone—ghost appeared
-
-**The Note**
-- [ ] Found in Room 11
-- [ ] Party understood what it means
-
 ### The Adventure
 
 *Permissions through formatting: **bold** for freely visible, bullets for discoverable, `[!secret]-` for hidden.*
 
-Refer to [[Dredmor Ruins]] for the full room-by-room key.
+#### Entrance
 
-**The footprints.** Tiny footprints in Room 1 lead toward Room 7. If the party follows them, they find the Imp. If they don't notice them until later, mention them again when the Imp appears. The thread should be there to pull.
+> *A **single torch** casts shadows across the walls and down the stone steps. The **air smells of fire and brimstone**.*
 
-- **[["M" the Wizard]]** is in Room 6—not hostile, INT +4, will share everything it knows. The one thing it doesn't know is why it's in the jar.
-- **[[Imp]]** is in Room 7 digging for the sword. Make a Reaction Roll at -2. It wants to deal.
-- **[[Once Upon a Time]]** pieces are in the rubble in Room 7. Reforging unlocks Room 4.
-- **[[Dredmor]]** starts sealed. Removing M's jar frees him. Chapel words (Room 9) toggle stone/free.
+- Tiny footprints start here and go down the steps—they belong to the Imp in Room 7
+- The torch burns for 1 hour
 
-> [!secret]- GM Only—The Chapel as Chekhov's Gun
+> [!secret]- GM Only—Secret of the Footprints
+> These footprints were left by the imp in the [[Dredmor Ruins#(7) Excalibroken]] room.
+
+#### Pact & Penance
+
+> ***Marble statues** flank the entrance. The western one wields a sword called* ***Pact*** *and points it toward the eastern door. The eastern statue wields* ***Penance*** *and points it toward the western door.*
+
+- Statues are too heavy to move
+
+```mermaid
+flowchart TD
+    A["#Entrance"]
+    B["(2) Pact & Penance"]
+    C["#Empty Room"]
+    D["#Dark Armory"]
+
+    A <--> B
+    B -->|"Pact"| C
+    B -->|"Penance"| D
+
+    click A href "#entrance"
+    click C href "#empty-room"
+    click D href "#dark-armory"
+
+    class A internal-link
+    class C internal-link
+    class D internal-link
+```
+
+#### Empty Room
+
+- Roll for [[#Random Encounters]]
+- 2-in-6 chance of finding 2d6 copper pieces
+
+```mermaid
+flowchart TD
+    A["#Pact & Penance"]
+    B["Empty Room"]
+    C["#The Stone"]
+
+    A <--> B --> C
+
+    click A href "#pact--penance"
+    click C href "#the-stone"
+
+    class A internal-link
+    class C internal-link
+```
+
+#### The Stone
+
+> *A **stoic stone** rests at the center of this room. It's a few feet wide and three feet tall.*
+
+- The stone has a small slit on top
+
+
+> [!secret]- GM Only—Sword in the Stone
+> - If [[Once Upon a Time]] is reforged and inserted here, the ghost of the king appears and bestows the **Boon of the Round Table** upon anyone present
+
+
+```mermaid
+flowchart TD
+    A["#Empty Room"]
+    B["The Stone"]
+    C["#(5) Empty Room"]
+
+    A <--> B --> C
+
+    click A href "#empty-room"
+    click C href "#5-empty-room"
+
+    class A internal-link
+    class C internal-link
+```
+
+#### (5) Empty Room
+
+- Roll for [[#Random Encounters]]
+- 2-in-6 chance of finding 2d6 copper pieces
+
+```mermaid
+flowchart TD
+    A["#The Stone"]
+    B["(5) Empty Room"]
+    C["#M"]
+    D["#Excalibroken"]
+    E["#Sacrifice"]
+
+    A <--> B
+    B --> C
+    B --> D
+    B --> E
+
+    click A href "#the-stone"
+    click C href "#m"
+    click D href "#excalibroken"
+    click E href "#sacrifice"
+
+    class A internal-link
+    class C internal-link
+    class D internal-link
+    class E internal-link
+```
+
+#### M
+
+> *A walkway overlooks a 10-foot drop into dark, ominous waters—as still as glass. Three pedestals stand at one end, one with a **curious-looking jar** atop. The **words "Of Spell"** are carved into the jar.*
+
+- Three feet deep; a shield, a dagger, and 1d12 gold pieces rest along the bottom
+- A wizard's brain is stored in the jar—fleeting memories of quests with the king; no memory of how it got here
+
+
+> [!secret]- GM Only—Removing the Jar
+> - Removing the jar from the room frees [[Dredmor]]
+
+
+```mermaid
+flowchart TD
+    A["#(5) Empty Room"]
+    B["M"]
+    C["#The Altar"]
+
+    A <--> B --> C
+
+    click A href "#5-empty-room"
+    click C href "#the-altar"
+
+    class A internal-link
+    class C internal-link
+```
+
+#### Excalibroken
+
+> *The room bears a heavy silence. A **pile of rubble** rests at its center. The **words "Of Steel"** are carved into the floor nearby. A small, **devilish being** dances among the rubble.*
+
+- Once Upon a Time—the broken pieces of the legendary blade are buried in the rubble
+- An imp is digging through the pile—make a Reaction Roll with a -2 penalty
+
+```
+IMP
+AC 13, HP 9, ATK 1 stinger +3 (1d4 + poison)
+MV near (fly), S -2, D +3, C +0, I +1, W +0, Ch +2, AL C, LV 2
+Impervious: Fire immune.
+Contract: Can grant mighty boons and patronage on behalf of an archdevil in exchange for a sworn soul. ADV on related Charisma checks.
+```
+
+```mermaid
+flowchart TD
+    A["#(5) Empty Room"]
+    B["Excalibroken"]
+    C["#The Altar"]
+
+    A <--> B --> C
+
+    click A href "#5-empty-room"
+    click C href "#the-altar"
+
+    class A internal-link
+    class C internal-link
+```
+
+#### The Altar
+
+> ***Black candles** burn on a **bloody altar** behind iron bars. The **words "Of Sacrifice"** are carved into the altar. A **skeleton** lies on it next to a **jeweled dagger and gold crown**.*
+
+- The locked door in the iron bars is **hard** to break open (DC 15)—roll for [[#Random Encounters]] when attempted
+- **Jeweled dagger**—embedded emerald worth 120gp
+- **Gold crown**—weighs 5 pounds
+- The candles burn for 1 hour each if removed from the altar
+
+
+> [!secret]- GM Only—The Skeleton
+> This is the body of the king. It's the true altar he discovered after sacrificing his beloved on a false altar.
+
+
+```mermaid
+flowchart TD
+    A["#Sacrifice"]
+    B["#Chapel"]
+    C["The Altar"]
+    D["#Excalibroken"]
+    E["#M"]
+
+    A <--> C
+    B <--> C
+    C --> D
+    C --> E
+
+    click A href "#sacrifice"
+    click B href "#chapel"
+    click D href "#excalibroken"
+    click E href "#m"
+
+    class A internal-link
+    class B internal-link
+    class D internal-link
+    class E internal-link
+```
+
+#### Chapel
+
+> *Two rows of **decrepit pews** lead up to **three small altars**. Words above read, "Speak the Dark Contracts. Seal Your Doom."*
+
+- Speaking "Of Spell, of Steel, of Sacrifice" (in any order) produces one of two outcomes:
+  1. If Dredmor is currently free, it will turn him to stone
+  2. If Dredmor is currently stone, it will set him free—because magic is fickle.
+
+
+> [!secret]- GM Only—Dredmor State
+> Be sure to update Dredmor's state in the [[#Tracking]] section.
+
+
+```mermaid
+flowchart TD
+    A["#Dark Armory"]
+    B["Chapel"]
+    C["#The Altar"]
+
+    A <--> B --> C
+
+    click A href "#dark-armory"
+    click C href "#the-altar"
+
+    class A internal-link
+    class C internal-link
+```
+
+#### Dark Armory
+
+> *Two **black chests** rest against a wall behind iron bars. Two **skeletons** of charred black bone walk around. Blood writing on the wall reads, "What is a soul worth?"*
+
+- The locked door in the iron bars is **hard** to break open (DC 15)—roll for [[#Random Encounters]] when attempted
+- The chests are unlocked; contain **[[Malice]]** and **[[Torment]]** along with 2d6 gold pieces
+- The skeletons are hostile
+
+```mermaid
+flowchart TD
+    A["#Pact & Penance"]
+    B["Dark Armory"]
+    C["#Chapel"]
+    D["#Sacrifice"]
+
+    A <--> B
+    B --> C
+    B --> D
+
+    click A href "#pact--penance"
+    click C href "#chapel"
+    click D href "#sacrifice"
+
+    class A internal-link
+    class C internal-link
+    class D internal-link
+```
+#### Sacrifice
+
+> *Three sets of stairs lead down into a vaulted chamber. A central dais rises ten feet from the chamber's floor. A dark altar dominates the northern wall.*
+
+If the Dredmor statue is still here:
+
+> *The stone statue of a warrior stands on the dais with a dragon-winged helm and sword raised in defiance toward the altar.*
+
+**False Altar**
+
+> *Blood covers the obsidian altar. The words, "Of Damnation" are carved into it. A skeleton rests on it near a knife.*
+
+- A note nearby reads: *"G—my love, I'm so sorry."*
+
+
+> [!secret]- GM Only—What Happened
+> The king, in thinking he completed the contracts, sacrificed his beloved on this false altar. His enemy was not sealed. In his grief, he had to sacrifice himself to complete what he set out to do. 
+
+> [!secret]- GM Only—Secrets & Change
 >
-> The words "Speak the Dark Contracts. Seal Your Doom." are visible when the party enters Room 9. The phrase "Of Spell, of Steel, of Sacrifice" is carved on artifacts throughout the dungeon—M's jar, the floor of Room 7, the altar in Room 8. By the time the party stands in the chapel with Dredmor free and closing in, they should already know what to say.
+> **How this place changes:** If Dredmor is freed and then defeated, the dungeon goes quiet in a way it wasn't before. The random encounter frequency drops. The imp leaves. A sense of pressure lifts. The silence is no longer heavy, just the absence of sound.
 
-> [!secret]- GM Only—M as Information Source
->
-> M knows everything about the dungeon and the contracts. It will share—it's not hostile, and it has INT +4. The catch: it doesn't know it was sacrificed. If the party figures out the story and tells M, let that beat happen slowly. It's the most human moment in the dungeon.
+```mermaid
+flowchart TD
+    A["#Dark Armory"]
+    B["Sacrifice"]
+    C["#(5) Empty Room"]
+    D["#The Altar"]
 
-> [!secret]- GM Only—The Note Landing
->
-> The note in Room 11—*"G—my love, I'm so sorry"*—is easy to gloss over. If the party doesn't engage with it, have M recognize the handwriting, or mention it again when the ghost appears in Room 4. The king sacrificed his love on a false altar and then sacrificed himself. The note is his last act. It should mean something.
+    A <--> B
+    B --> C
+    B --> D
+
+    click A href "#dark-armory"
+    click C href "#5-empty-room"
+    click D href "#the-altar"
+
+    class A internal-link
+    class C internal-link
+    class D internal-link
+```
 
 ### Monster Stats
 

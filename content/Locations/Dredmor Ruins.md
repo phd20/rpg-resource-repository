@@ -26,14 +26,14 @@ Pursuit:   Only demons, devils, and Dredmor pursue retreating parties
 
 ### (1) Entrance
 
-> *A single torch casts shadows across the walls and down the stone steps. The air smells of fire and brimstone.*
+> *A **single torch** casts shadows across the walls and down the stone steps. The **air smells of fire and brimstone**.*
 
-- **Tiny footprints** start here and go down the steps—they belong to the Imp in Room 7
+- Tiny footprints start here and go down the steps—they belong to the Imp in Room 7
 - The torch burns for 1 hour
 
 ### (2) Pact & Penance
 
-> *Marble statues flank the entrance. The western one wields a sword called* ***Pact*** *and points it toward the eastern door. The eastern statue wields* ***Penance*** *and points it toward the western door.*
+> ***Marble statues** flank the entrance. The western one wields a sword called* ***Pact*** *and points it toward the eastern door. The eastern statue wields* ***Penance*** *and points it toward the western door.*
 
 - Statues are too heavy to move
 
