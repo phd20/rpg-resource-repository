@@ -1,10 +1,9 @@
 ---
+license: cc-by-4.0
 type: magic-item
 system: shadowdark
 tags:
   - weapon
-tier: released
-release_date:
 ---
 
 > *A cruel mace of obsidian and steel.*

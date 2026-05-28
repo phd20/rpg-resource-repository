@@ -1,4 +1,5 @@
 ---
+license: cc-by-4.0
 type: table
 system: neutral
 tags: []
@@ -8,18 +9,18 @@ A random table for generating interesting ancestors.
 
 ## Relation
 
-| d8  | Relation           |
-|-----|--------------------|
-| 1   | Aunt               |
-| 2   | Uncle              |
-| 3   | Great Aunt         |
-| 4   | Great Uncle        |
-| 5   | Father             |
-| 6   | Mother             |
-| 7   | Grandmother        |
-| 8   | Grandfather        |
-| 9   | Great Grandmother  |
-| 10  | Great Grandfather  |
+| d10 | Relation          |
+| --- | ----------------- |
+| 1   | Aunt              |
+| 2   | Uncle             |
+| 3   | Great Aunt        |
+| 4   | Great Uncle       |
+| 5   | Father            |
+| 6   | Mother            |
+| 7   | Grandmother       |
+| 8   | Grandfather       |
+| 9   | Great Grandmother |
+| 10  | Great Grandfather |
 
 ## Lore 
 

@@ -126,45 +126,14 @@ stateDiagram-v2
 
 - Statues are too heavy to move
 
-```mermaid
-flowchart TD
-    A["#Entrance"]
-    B["(2) Pact & Penance"]
-    C["#Empty Room"]
-    D["#Dark Armory"]
-
-    A <--> B
-    B -->|"Pact"| C
-    B -->|"Penance"| D
-
-    click A href "#entrance"
-    click C href "#empty-room"
-    click D href "#dark-armory"
-
-    class A internal-link
-    class C internal-link
-    class D internal-link
-```
+**Exits:** [[#Entrance]], [[#Empty Room]], [[#Dark Armory]]
 
 #### Empty Room
 
 - Roll for [[#Random Encounters]]
 - 2-in-6 chance of finding 2d6 copper pieces
 
-```mermaid
-flowchart TD
-    A["#Pact & Penance"]
-    B["Empty Room"]
-    C["#The Stone"]
-
-    A <--> B --> C
-
-    click A href "#pact--penance"
-    click C href "#the-stone"
-
-    class A internal-link
-    class C internal-link
-```
+**Exits:** [[#Pact & Penance]], [[#The Stone]]
 
 #### The Stone
 
@@ -177,49 +146,14 @@ flowchart TD
 > - If [[Once Upon a Time]] is reforged and inserted here, the ghost of the king appears and bestows the **Boon of the Round Table** upon anyone present
 
 
-```mermaid
-flowchart TD
-    A["#Empty Room"]
-    B["The Stone"]
-    C["#(5) Empty Room"]
-
-    A <--> B --> C
-
-    click A href "#empty-room"
-    click C href "#5-empty-room"
-
-    class A internal-link
-    class C internal-link
-```
+**Exits:** [[#Empty Room]], [[#(5) Empty Room]]
 
 #### (5) Empty Room
 
 - Roll for [[#Random Encounters]]
 - 2-in-6 chance of finding 2d6 copper pieces
 
-```mermaid
-flowchart TD
-    A["#The Stone"]
-    B["(5) Empty Room"]
-    C["#M"]
-    D["#Excalibroken"]
-    E["#Sacrifice"]
-
-    A <--> B
-    B --> C
-    B --> D
-    B --> E
-
-    click A href "#the-stone"
-    click C href "#m"
-    click D href "#excalibroken"
-    click E href "#sacrifice"
-
-    class A internal-link
-    class C internal-link
-    class D internal-link
-    class E internal-link
-```
+**Exits:** [[#The Stone]], [[#M]], [[#Excalibroken]], [[#Sacrifice]]
 
 #### M
 
@@ -233,20 +167,7 @@ flowchart TD
 > - Removing the jar from the room frees [[Dredmor]]
 
 
-```mermaid
-flowchart TD
-    A["#(5) Empty Room"]
-    B["M"]
-    C["#The Altar"]
-
-    A <--> B --> C
-
-    click A href "#5-empty-room"
-    click C href "#the-altar"
-
-    class A internal-link
-    class C internal-link
-```
+**Exits:** [[#(5) Empty Room]], [[#The Altar]]
 
 #### Excalibroken
 
@@ -263,20 +184,7 @@ Impervious: Fire immune.
 Contract: Can grant mighty boons and patronage on behalf of an archdevil in exchange for a sworn soul. ADV on related Charisma checks.
 ```
 
-```mermaid
-flowchart TD
-    A["#(5) Empty Room"]
-    B["Excalibroken"]
-    C["#The Altar"]
-
-    A <--> B --> C
-
-    click A href "#5-empty-room"
-    click C href "#the-altar"
-
-    class A internal-link
-    class C internal-link
-```
+**Exits:** [[#(5) Empty Room]], [[#The Altar]]
 
 #### The Altar
 
@@ -292,29 +200,7 @@ flowchart TD
 > This is the body of the king. It's the true altar he discovered after sacrificing his beloved on a false altar.
 
 
-```mermaid
-flowchart TD
-    A["#Sacrifice"]
-    B["#Chapel"]
-    C["The Altar"]
-    D["#Excalibroken"]
-    E["#M"]
-
-    A <--> C
-    B <--> C
-    C --> D
-    C --> E
-
-    click A href "#sacrifice"
-    click B href "#chapel"
-    click D href "#excalibroken"
-    click E href "#m"
-
-    class A internal-link
-    class B internal-link
-    class D internal-link
-    class E internal-link
-```
+**Exits:** [[#Sacrifice]], [[#Chapel]], [[#Excalibroken]], [[#M]]
 
 #### Chapel
 
@@ -329,20 +215,7 @@ flowchart TD
 > Be sure to update Dredmor's state in the [[#Tracking]] section.
 
 
-```mermaid
-flowchart TD
-    A["#Dark Armory"]
-    B["Chapel"]
-    C["#The Altar"]
-
-    A <--> B --> C
-
-    click A href "#dark-armory"
-    click C href "#the-altar"
-
-    class A internal-link
-    class C internal-link
-```
+**Exits:** [[#Dark Armory]], [[#The Altar]]
 
 #### Dark Armory
 
@@ -352,25 +225,7 @@ flowchart TD
 - The chests are unlocked; contain **[[Malice]]** and **[[Torment]]** along with 2d6 gold pieces
 - The skeletons are hostile
 
-```mermaid
-flowchart TD
-    A["#Pact & Penance"]
-    B["Dark Armory"]
-    C["#Chapel"]
-    D["#Sacrifice"]
-
-    A <--> B
-    B --> C
-    B --> D
-
-    click A href "#pact--penance"
-    click C href "#chapel"
-    click D href "#sacrifice"
-
-    class A internal-link
-    class C internal-link
-    class D internal-link
-```
+**Exits:** [[#Pact & Penance]], [[#Chapel]], [[#Sacrifice]]
 #### Sacrifice
 
 > *Three sets of stairs lead down into a vaulted chamber. A central dais rises ten feet from the chamber's floor. A dark altar dominates the northern wall.*
@@ -393,25 +248,7 @@ If the Dredmor statue is still here:
 >
 > **How this place changes:** If Dredmor is freed and then defeated, the dungeon goes quiet in a way it wasn't before. The random encounter frequency drops. The imp leaves. A sense of pressure lifts. The silence is no longer heavy, just the absence of sound.
 
-```mermaid
-flowchart TD
-    A["#Dark Armory"]
-    B["Sacrifice"]
-    C["#(5) Empty Room"]
-    D["#The Altar"]
-
-    A <--> B
-    B --> C
-    B --> D
-
-    click A href "#dark-armory"
-    click C href "#5-empty-room"
-    click D href "#the-altar"
-
-    class A internal-link
-    class C internal-link
-    class D internal-link
-```
+**Exits:** [[#Dark Armory]], [[#(5) Empty Room]], [[#The Altar]]
 
 ### Monster Stats
 

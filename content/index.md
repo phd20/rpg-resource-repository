@@ -9,12 +9,9 @@ The RPG Resource Repository is a public, version-controlled library of GM conten
 
 Everything here was unlocked from [the Architect's Vault](https://members.phd20.com/)—the Patreon companion where new content starts. Support on Patreon to get everything sooner, plus exclusives that never leave the Vault.
 
-## Creative Commons
+## Licensing
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Feel free to use this content in any way allowed by the license, provided that you include the following attribution statement in your work:
-
-> This work incorporates material from the RPG Resource Repository by Kirk Wiebe of [PhD20.com](https://phd20.com/), provided under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
+**Most** (but not all) of the material in the RPG Resource Repository is released into the Creative Commons. Refer to individual pages for which (if any) license applies and how to use it.
 ## Human Made Resources
 
 All game material in the RPG Resource Repository is **100% human-made**. Generative AI is **not** used during any part of the creative process to create this material.
@@ -56,6 +53,11 @@ Find a location or encounter for your next session? Copy it to your own notes! T
 #### Download the Entire Vault
 
 The entirety of the content is structured into an Obsidian vault (using wikilinks, callouts, snippets, etc). Download the whole thing as a `.zip` file at the [Github repository](https://github.com/phd20/rpg-resource-repository). Open the `/content` directory as a vault and you're all set.
+
+
+#### Use Commercially
+
+**Most** (but not all) of the material here is released into the Creative Commons under a license that allows for commercial use. Check individual pages to see which artifacts you can use in commercial projects and what attribution is required. Be sure to <a href="mailto:kirk@phd20.com?subject=Project Featuring RPG Resource Repository">email me</a> if you use any of this as I'd love to see and support it!
 
 
 ---

@@ -1,4 +1,5 @@
 ---
+license: cc-by-4.0
 type: magic-item
 system: shadowdark
 tags:
@@ -28,6 +29,6 @@ damage on a die, roll again and add it to the total. No cap.
 
 The Once Upon a Time blade was long ago pulled from a stone. It made a king, forged a kingdom, and ultimately paid a price.
 
-> [!secret]- Secrets
+> [!secret]- GM Only
 >
 > If it isn't already clear, this sword is Excalibur. If this blade is reforged and brought back to the stone it was pulled from, a great boon awaits.

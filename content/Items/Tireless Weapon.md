@@ -1,10 +1,11 @@
 ---
+license: cc-by-4.0
 type: magic-item
 system: 5e
 tags: []
 ---
 
-> A legendary weapon to push the wielder beyond their limits. But at what cost?
+> *A legendary weapon to push the wielder beyond their limits. But at what cost?*
 
 ## Description
 
@@ -16,6 +17,7 @@ The weapon is covered in dun runes. They appear to glow with a faint light when 
 
 ```
 Tireless Weapon
+────────────────────────────────────────────────────────────
 Legendary (10,000 gp) · Requires Attunement
 
 Each time you would suffer one Exhaustion level, you gain no levels
@@ -33,5 +35,5 @@ levels stored.
 
 Legends abound of a tireless but vengeful spirit binding itself to a weapon long ago...
 
-> [!secret]- GM Only 
+> [!secret]- GM Only
 > Make this weapon interesting by introducing challenges that risk exhaustion. Then give the the wielder a dilemma in which they're tempted to un-attune to the weapon.  

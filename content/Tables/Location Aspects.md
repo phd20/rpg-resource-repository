@@ -1,4 +1,5 @@
 ---
+license: cc-by-4.0
 type: table
 system: neutral
 tags: []
