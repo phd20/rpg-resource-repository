@@ -69,14 +69,14 @@ Unless otherwise noted:
 
 #### Random Encounters
 
-| d6 | Encounter |
-|----|-----------|
-| 1 | A random NPC wanders in |
-| 2 | 1d4 [[The Dark Contracts#Skeleton\|skeletons]] ramble in |
-| 3 | An [[Imp]] appears in smoke |
-| 4 | A [[The Dark Contracts#Giant Bat\|giant bat]] emerges |
-| 5 | A mad [[The Dark Contracts#Cultist\|cultist]] stalks the party |
-| 6 | A [[The Dark Contracts#Dretch\|dretch]] (demon) is summoned nearby |
+| d6  | Encounter                                                          |
+| --- | ------------------------------------------------------------------ |
+| 1   | A random NPC wanders in                                            |
+| 2   | 1d4 [[The Dark Contracts#Skeleton\|skeletons]] ramble in           |
+| 3   | An [[#Imp]] appears in smoke                                       |
+| 4   | A [[The Dark Contracts#Giant Bat\|giant bat]] emerges              |
+| 5   | A mad [[The Dark Contracts#Cultist\|cultist]] stalks the party     |
+| 6   | A [[The Dark Contracts#Dretch\|dretch]] (demon) is summoned nearby |
 #### Chaos
 
 | d8 | Chaos Event |
@@ -278,7 +278,18 @@ GIANT BAT
 AC 12, HP 9, ATK 1 bite +2 (1d6)
 MV near (fly), S -1, D +2, C +0, I -3, W +1, Ch -3, AL N, LV 2
 ```
+#### Imp
+```
+IMP                                                    LV 2
+AC 13  HP 9  ATK 1 stinger +3 (1d4 + poison)  MV near (fly)
+S -2  D +3  C +0  I +1  W +0  Ch +2  AL C
 
+Impervious. Immune to fire.
+Contract. Can grant mighty boons and patronage on behalf of an archdevil
+          in exchange for a sworn soul. ADV on related Charisma checks.
+
+Reaction: -2 penalty
+```
 #### Skeleton
 ```
 SKELETON
