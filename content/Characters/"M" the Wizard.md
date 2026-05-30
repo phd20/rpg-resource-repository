@@ -6,6 +6,7 @@ systems:
 tags:
   - spellcaster
   - undead
+license: cc-by-4.0
 ---
 
 > *A wizard's brain, now in a jar.*

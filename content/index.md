@@ -3,7 +3,7 @@ title: RPG Resource Repository
 ---
 ![RPG Resource Repository](preview.png)
 
-The RPG Resource Repository is a public, version-controlled library of GM content for tabletop RPGs. It's free forever, under Creative Commons. Stop by for inspiration, take artifacts for your games, or download the whole thing as an Obsidian vault.
+The RPG Resource Repository is a public, version-controlled library of GM content for tabletop RPGs. It's free forever, with many artifacts released under Creative Commons. Stop by for inspiration, take artifacts for your games, or download the whole thing as an Obsidian vault.
 
 ## 🤍 Support 
 
@@ -14,7 +14,7 @@ Everything here was unlocked from [the Architect's Vault](https://members.phd20.
 **Most** (but not all) of the material in the RPG Resource Repository is released into the Creative Commons. Refer to individual pages for which (if any) license applies and how to use it.
 ## Human Made Resources
 
-All game material in the RPG Resource Repository is **100% human-made**. Generative AI is **not** used during any part of the creative process to create this material.
+All game material in the RPG Resource Repository is **100% human-made** (not generated or revised by generative AI). 
 
 ## Community
 
@@ -127,9 +127,3 @@ flowchart TD
 ### About the Author
 
 👋 I'm Kirk. I've been running D&D since 2010. In 2011, D&D's Chris Perkins selected my dungeon as a finalist in his "Acererak's Apprentice" design contest—which pulled me into the early online D&D community. I went on to run a YouTube channel for five years, back when TTRPG YouTube was a small handful of creators, before Matt Colville and the rise of modern "DungeonTube." These days I write instead, and I'm especially interested in where our hobby meets technology: the tools that help us build and organize worlds, and a healthy skepticism toward the ones that don't.
-
-[phd20.com](https://phd20.com) · [Patreon](https://patreon.com/phd20)
-
----
-
-<a href="https://github.com/phd20/rpg-resource-repository">RPG Resource Repository</a> © 2026 by <a href="https://phd20.com">Kirk Wiebe</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">

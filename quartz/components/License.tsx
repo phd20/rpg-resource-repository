@@ -8,10 +8,12 @@ const License: QuartzComponent = ({ fileData, displayClass }: QuartzComponentPro
     | undefined
   if (license !== "cc-by-4.0") return null
 
+  const title = fileData.frontmatter?.title ?? fileData.slug?.split("/").pop() ?? "This artifact"
+
   return (
     <div class={classNames(displayClass, "page-license")}>
       <p class="page-license-preamble">
-        This artifact is licensed under a{" "}
+        <em>{title}</em> is licensed under a{" "}
         <a href="https://creativecommons.org/licenses/by/4.0/">
           Creative Commons Attribution 4.0 International License
         </a>

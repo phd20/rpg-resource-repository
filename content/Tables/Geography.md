@@ -4,6 +4,7 @@ categories:
 systems:
   - neutral
 tags:
+license: cc-by-4.0
 ---
 
 Roll for geography and flavor to inspire evocative names.

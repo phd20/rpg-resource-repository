@@ -5,6 +5,7 @@ systems:
   - shadowdark
 tags:
   - weapon
+license: cc-by-4.0
 ---
 
 > *A cruel mace of obsidian and steel.*

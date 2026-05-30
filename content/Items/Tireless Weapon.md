@@ -4,6 +4,7 @@ categories:
 systems:
   - 5e
 tags:
+license: cc-by-4.0
 ---
 
 > *A legendary weapon to push the wielder beyond their limits. But at what cost?*

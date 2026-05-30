@@ -4,6 +4,7 @@ categories:
 systems:
   - neutral
 tags:
+license: cc-by-4.0
 ---
 
 The following location aspects add flavor to any location.

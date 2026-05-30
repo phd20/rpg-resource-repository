@@ -6,6 +6,7 @@ systems:
 tags:
   - weapon
   - legendary
+license: cc-by-4.0
 ---
 
 > *A mythical longsword that once belonged to a great king.*

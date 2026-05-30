@@ -4,6 +4,7 @@ categories:
 systems:
   - neutral
 tags:
+license: cc-by-4.0
 ---
 
 Use the following table to generate immersive main dishes for your taverns and inns.

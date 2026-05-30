@@ -4,6 +4,7 @@ categories:
 systems:
   - neutral
 tags:
+license: cc-by-4.0
 ---
 
 Generate the names of sundry tomes with this table.

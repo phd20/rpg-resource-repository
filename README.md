@@ -2,21 +2,18 @@
 
 ![RPG Resource Repository](content/preview.png)
 
-The RPG Resource Repository is a public, version-controlled library of GM content for tabletop RPGs. It's free forever, under Creative Commons. Stop by for inspiration, take artifacts for your games, or download the whole thing as an Obsidian vault.
+The RPG Resource Repository is a public, version-controlled library of GM content for tabletop RPGs. It's free forever, with many artifacts released under Creative Commons. Stop by for inspiration, take artifacts for your games, or download the whole thing as an Obsidian vault.
 
-## Support
+## 🤍 Support 
 
 Everything here was unlocked from [the Architect's Vault](https://members.phd20.com/)—the Patreon companion where new content starts. Support on Patreon to get everything sooner, plus exclusives that never leave the Vault.
 
-## Creative Commons
+## Licensing
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Feel free to use this content in any way allowed by the license, provided that you include the following attribution statement in your work:
-
-> This work incorporates material from the RPG Resource Repository by Kirk Wiebe of [PhD20.com](https://phd20.com/), provided under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
+**Most** (but not all) of the material in the RPG Resource Repository is released into the Creative Commons. Refer to individual pages for which (if any) license applies and how to use it.
 ## Human Made Resources
 
-All game material in the RPG Resource Repository is **100% human-made**. Generative AI is **not** used during any part of the creative process to create this material.
+All game material in the RPG Resource Repository is **100% human-made**. 
 
 ## Community
 
@@ -36,12 +33,12 @@ World artifacts are organized into:
 - Organizations
 - Tables
 
-These notes contain the "what is true" and "how truth changes" about each topic. They are kept atomic—not linking to or depending on any other notes. As written, these types of notes are rarely "ready to run." That's where our "runtime" artifacts come in:
+These notes contain the "what is true" and "how truth changes" about each topic. They are kept atomic—not linking to or depending on any other notes. As written, these types of notes are easy to steal for your own game but might not be "ready" to run. That's where our "runtime" artifacts come in:
 
 - Adventures
 - Encounters
 
-These notes are created and organized in a way to make them easy to run as actual games. They take advantage of Obsidian features and specific styling approaches to help the game master use them at the table. 
+These notes are created and organized in a way to make them easy to run during actual games. They take advantage of Obsidian features and specific styling approaches to help the game master use them at the table. 
 ### How to Use the RPG Resource Repository
 
 #### Discover and Share Notes
@@ -56,6 +53,10 @@ Find a location or encounter for your next session? Copy it to your own notes! T
 
 The entirety of the content is structured into an Obsidian vault (using wikilinks, callouts, snippets, etc). Download the whole thing as a `.zip` file at the [Github repository](https://github.com/phd20/rpg-resource-repository). Open the `/content` directory as a vault and you're all set.
 
+#### Use Commercially
+
+**Most** (but not all) of the material here is released into the Creative Commons under a license that allows for commercial use. Check individual pages to see which artifacts you can use in commercial projects and what attribution is required. Be sure to <a href="mailto:kirk@phd20.com?subject=Project Featuring RPG Resource Repository">email me</a> if you use any of this as I'd love to see and support it!
+
 
 ---
 
@@ -67,9 +68,9 @@ See **[PRINCIPLES.md](PRINCIPLES.md)** and [phd20.com](https://phd20.com) for mo
 ## Properties Guide
 
 ```yaml
-type: site   # or "settlement" or "item" or "magic-item" or "table" or "npc" or "organization" or "encounter" or "adventure" etc.
-system: shadowdark   # or "5e" or "neutral" etc.
-tags: dungeon   # additional descriptors for search
+categories: "npc", # Custom property. The core property shared across all RPG notes for categorizing which "type" of note it is (ex. site, settlement, item, magic-item, adventure, encounter, table, etc).
+systems: "5e" # Custom property. Which TTRPG game system the note is for, if any (ex. shadowdark, 5e, etc.)
+tags: "dungeon" # Default Obsidian property. Useful for categorizing/classifying notes around subjects that don't yet have a clear 'property-first' strategy. 
 ```
 
 ## Style Guide
@@ -125,9 +126,3 @@ flowchart TD
 ### About the Author
 
 👋 I'm Kirk. I've been running D&D since 2010. In 2011, D&D's Chris Perkins selected my dungeon as a finalist in his "Acererak's Apprentice" design contest—which pulled me into the early online D&D community. I went on to run a YouTube channel for five years, back when TTRPG YouTube was a small handful of creators, before Matt Colville and the rise of modern "DungeonTube." These days I write instead, and I'm especially interested in where our hobby meets technology: the tools that help us build and organize worlds, and a healthy skepticism toward the ones that don't.
-
-[phd20.com](https://phd20.com) · [Patreon](https://patreon.com/phd20)
-
----
-
-<a href="https://github.com/phd20/rpg-resource-repository">RPG Resource Repository</a> © 2026 by <a href="https://phd20.com">Kirk Wiebe</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">

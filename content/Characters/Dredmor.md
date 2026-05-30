@@ -7,6 +7,7 @@ tags:
   - humanoid
   - warrior
   - boss
+license: cc-by-4.0
 ---
 
 > *A dark knight sealed within ancient ruins by darker contracts.*

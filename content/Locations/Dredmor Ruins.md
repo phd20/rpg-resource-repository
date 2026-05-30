@@ -6,6 +6,7 @@ systems:
 tags:
   - dungeon
   - ruins
+license: cc-by-4.0
 ---
 
 > *A dungeon of dark contracts and a sad sacrifice.*
