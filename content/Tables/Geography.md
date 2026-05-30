@@ -1,8 +1,9 @@
 ---
-license: cc-by-4.0
-type: table
-system: neutral
-tags: []
+categories:
+  - table
+systems:
+  - neutral
+tags:
 ---
 
 Roll for geography and flavor to inspire evocative names.

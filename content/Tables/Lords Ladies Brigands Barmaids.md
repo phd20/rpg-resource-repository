@@ -1,8 +1,9 @@
 ---
-license: cc-by-4.0
-type: table
-system: neutral
-tags: []
+categories:
+  - table
+systems:
+  - neutral
+tags:
 ---
 
 Use the following tables to generate interesting names for lords, ladies, brigands, and barmaids.

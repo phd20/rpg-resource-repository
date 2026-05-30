@@ -1,6 +1,7 @@
 ---
-type: site
-system: 
+categories:
+  - site
+systems:
 tags:
 ---
 

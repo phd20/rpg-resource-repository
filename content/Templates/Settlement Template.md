@@ -1,6 +1,7 @@
 ---
-type: settlement
-system: 
+categories:
+  - settlement
+systems:
 tags:
 ---
 

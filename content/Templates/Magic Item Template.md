@@ -1,6 +1,7 @@
 ---
-type: magic-item
-system: 
+categories:
+  - magic-item
+systems:
 tags:
 ---
 

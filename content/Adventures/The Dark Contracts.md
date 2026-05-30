@@ -1,6 +1,8 @@
 ---
-type: adventure
-system: shadowdark
+categories:
+  - adventure
+systems:
+  - shadowdark
 tags:
   - one-shot
   - dungeon-crawl
@@ -90,6 +92,8 @@ Unless otherwise noted:
 #### Tracking
 
 **Dredmor's Current State**
+
+*Use the checkbox below to track whether Dredmor is sealed or not.*
 
 - [x] Sealed
 

@@ -1,6 +1,7 @@
 ---
-type: adventure
-system: 
+categories:
+  - adventure
+systems:
 tags:
 ---
 

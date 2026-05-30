@@ -1,8 +1,9 @@
 ---
-license: cc-by-4.0
-type: table
-system: neutral
-tags: []
+categories:
+  - table
+systems:
+  - neutral
+tags:
 ---
 
 Details to make the world feel alive.

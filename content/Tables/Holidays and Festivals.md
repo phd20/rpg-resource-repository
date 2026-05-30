@@ -1,8 +1,9 @@
 ---
-license: cc-by-4.0
-type: table
-system: neutral
-tags: []
+categories:
+  - table
+systems:
+  - neutral
+tags:
 ---
 
 Bring your setting to life with your own holidays and festivals using these tables.

@@ -1,12 +1,11 @@
 ---
-license: cc-by-4.0
-type: magic-item
-system: shadowdark
+categories:
+  - magic-item
+systems:
+  - shadowdark
 tags:
   - weapon
   - legendary
-tier: released
-release_date:
 ---
 
 > *A mythical longsword that once belonged to a great king.*

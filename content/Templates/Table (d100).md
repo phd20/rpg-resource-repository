@@ -1,5 +1,7 @@
 ---
-type: table
+categories:
+  - table
+systems:
 tags:
 ---
 

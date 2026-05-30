@@ -1,7 +1,8 @@
 ---
-license: cc-by-4.0
-type: npc
-system: shadowdark
+categories:
+  - npc
+systems:
+  - shadowdark
 tags:
   - spellcaster
   - undead

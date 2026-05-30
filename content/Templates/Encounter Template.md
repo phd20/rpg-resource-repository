@@ -1,6 +1,7 @@
 ---
-type: encounter
-system: 
+categories:
+  - encounter
+systems:
 tags:
 ---
 

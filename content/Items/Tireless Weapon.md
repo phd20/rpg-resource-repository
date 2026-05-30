@@ -1,8 +1,9 @@
 ---
-license: cc-by-4.0
-type: magic-item
-system: 5e
-tags: []
+categories:
+  - magic-item
+systems:
+  - 5e
+tags:
 ---
 
 > *A legendary weapon to push the wielder beyond their limits. But at what cost?*

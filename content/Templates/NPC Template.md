@@ -1,6 +1,7 @@
 ---
-type: npc
-system: 
+categories:
+  - npc
+systems:
 tags:
 ---
 

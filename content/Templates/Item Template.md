@@ -1,6 +1,7 @@
 ---
-type: item
-system: 
+categories:
+  - item
+systems:
 tags:
 ---
 

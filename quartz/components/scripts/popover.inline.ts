@@ -31,10 +31,11 @@ async function mouseEnterHandler(
 
     if (hash !== "") {
       const targetAnchor = `#popover-internal-${hash.slice(1)}`
-      const heading = popoverInner.querySelector(targetAnchor) as HTMLElement | null
-      if (heading) {
+      const inner = popoverElement.querySelector(".popover-inner") as HTMLElement | null
+      const heading = inner?.querySelector(targetAnchor) as HTMLElement | null
+      if (heading && inner) {
         // leave ~12px of buffer when scrolling to a heading
-        popoverInner.scroll({ top: heading.offsetTop - 12, behavior: "instant" })
+        inner.scroll({ top: heading.offsetTop - 12, behavior: "instant" })
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
-type: organization
-system: 
+categories:
+  - organization
+systems:
 tags:
 ---
 

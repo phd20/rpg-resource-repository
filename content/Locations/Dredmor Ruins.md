@@ -1,7 +1,8 @@
 ---
-license: cc-by-4.0
-type: site
-system: shadowdark
+categories:
+  - site
+systems:
+  - shadowdark
 tags:
   - dungeon
   - ruins
